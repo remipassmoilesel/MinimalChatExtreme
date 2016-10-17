@@ -9,13 +9,10 @@ html {
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
- * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
@@ -364,7 +361,11 @@ th {
   padding: 0; }
 
 html {
-  font: 14px/1 'Roboto Slab',serif; }
+  font-size: 14px;
+  font-family: sans-serif; }
+
+body {
+  background: #111; }
 
 .clear {
   clear: both; }
@@ -384,13 +385,13 @@ html {
   -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.57);
   -o-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.57);
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.57);
-  background: #5fb54c;
-  background: -moz-linear-gradient(top, #5fb54c 0%, #57a745 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5fb54c), color-stop(100%, #57a745));
-  background: -webkit-linear-gradient(top, #5fb54c 0%, #57a745 100%);
-  background: -o-linear-gradient(top, #5fb54c 0%, #57a745 100%);
-  background: -ms-linear-gradient(top, #5fb54c 0%, #57a745 100%);
-  background: linear-gradient(to bottom, #5fb54c 0%, #57a745 100%);
+  background: #236528;
+  background: -moz-linear-gradient(top, #236528 0%, #1e5622 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #236528), color-stop(100%, #1e5622));
+  background: -webkit-linear-gradient(top, #236528 0%, #1e5622 100%);
+  background: -o-linear-gradient(top, #236528 0%, #1e5622 100%);
+  background: -ms-linear-gradient(top, #236528 0%, #1e5622 100%);
+  background: linear-gradient(to bottom, #236528 0%, #1e5622 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$top',GradientType=0 ); }
   .header .menubutton, .header .more {
     height: 60px;
@@ -485,8 +486,8 @@ html {
   height: 100%;
   margin-bottom: 50px; }
   .chatarea .message {
-    background: white;
-    color: #5F5F5F;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
     width: 98%;
     margin: 1% 0;
     padding: 10px 15px;
@@ -582,7 +583,7 @@ html {
     margin-top: 5px;
     cursor: pointer; }
     .dialog .button.submit {
-      color: #5fb54c; }
+      color: #236528; }
     .dialog .button:active, .dialog .button:focus {
       background: rgba(0, 0, 0, 0.07); }
   .dialog.visible {

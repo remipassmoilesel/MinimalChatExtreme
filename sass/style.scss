@@ -14,7 +14,12 @@ $headerheight:60px;
 $inputheight: 50px;
 
 html {
-    font: 14px/1 'Roboto Slab',serif;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+body{
+  background: #111;
 }
 
 .clear {
@@ -150,8 +155,8 @@ html {
 
     .message {
         $topPadding:10px;
-        background: white;
-        color:$lightgrey;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
         width: 98%;
         margin:1% 0;
         padding:$topPadding $topPadding*1.5;
