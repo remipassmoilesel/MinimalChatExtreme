@@ -81,10 +81,9 @@
             ?>
         var room = <?php echo '"'.$room.'"'; ?>
     </script>
-    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="js/scripts.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
 </body>
 
