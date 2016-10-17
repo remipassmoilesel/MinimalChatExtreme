@@ -35,7 +35,7 @@
                 <ul>
                     <li><label class="clear">Clear Chat</label></li>
                     <li><label class="change-username">Change Username</label></li>
-                    <li class="notifications"><label>Enable Notifications <input type="checkbox" class="enable-notifications"></label></li>
+                    <li class="notifications"><label>Enable sounds <input type="checkbox" class="enable-notifications"></label></li>
                 </ul>
             </div>
         </div>
