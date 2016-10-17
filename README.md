@@ -23,9 +23,10 @@ Base on the excellent project: https://github.com/adamoutler/MinimalChatExtreme 
 On OpenWRT with lighttpd:
 
     $ cd /www
-    $ wget https://github.com/remipassmoilesel/minibox-minimalchatextreme/archive/master.zip
-    $ unzip master.zip
-    $ chown -R http:www-data minibox-minimalchatextreme-master
+    $ mkdir chat && cd chat
+    $ wget https://github.com/remipassmoilesel/minibox-minimalchatextreme/raw/master/dist/release.zip
+    $ unzip release.zip
+    $ chown -R http:www-data .
     
 ## Usefull commands for dev
 
