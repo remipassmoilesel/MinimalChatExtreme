@@ -26,3 +26,9 @@ On OpenWRT with lighttpd:
     $ wget https://github.com/remipassmoilesel/minibox-minimalchatextreme/archive/master.zip
     $ unzip master.zip
     $ chown -R http:www-data minibox-minimalchatextreme-master
+    
+## Usefull commands for dev
+
+    $ npm install
+    $ gulp styles
+    $ gulp release
