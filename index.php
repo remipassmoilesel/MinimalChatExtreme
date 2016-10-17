@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Cache-Control" content="no-cache">
-    <meta property="og:title" content="CASUAL-Dev Minibox Minimal Chat Extreme"/>
+    <meta property="og:title" content="CASUAL-Dev chipbox Minimal Chat Extreme"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://chat.casual-dev.com"/>
     <meta name=viewport content="width=device-width, initial-scale=1,user-scalable=no">
@@ -19,7 +19,7 @@
     <meta property="instrument" content="CASUAL-Dev chat"/>
     <meta property="participant" content="user"/>
 
-    <title>Minibox Minimal Chat Extreme</title>
+    <title>Chipbox Minimal Chat Extreme</title>
 
 	<style>
 		<?php echo file_get_contents('css/style.css'); ?>
@@ -28,7 +28,7 @@
 </head>
 <body id="body" itemscope itemtype="https://schema.org/CommunicateAction">
     <div class="header">
-        <div class="menubutton">Minibox Minimal Chat</div>
+        <div class="menubutton">Chipbox Minimal Chat</div>
         <div class="more has-menu">
             <i class="fa fa-ellipsis-v"></i>
             <div class="menu">

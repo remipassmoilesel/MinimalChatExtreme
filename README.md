@@ -2,7 +2,7 @@
 
 An Extremely Minimal PHP/Javascript chat system. Easy to deploy,  Easy to manage, Easy to use.
 
-Modified to be use in Minibox, on TPLink MR3020 and OpenWRT Chaos Calmer. 
+Modified to be use in chipbox, on TPLink MR3020 and OpenWRT Chaos Calmer. 
 
 Base on the excellent project: https://github.com/adamoutler/MinimalChatExtreme Thanks a lot !
 
@@ -24,7 +24,7 @@ On OpenWRT with lighttpd:
 
     $ cd /www
     $ mkdir chat && cd chat
-    $ wget https://github.com/remipassmoilesel/minibox-minimalchatextreme/raw/master/dist/release.zip
+    $ wget https://github.com/remipassmoilesel/chipbox-minimalchatextreme/raw/master/dist/release.zip
     $ unzip release.zip
     $ chown -R http:www-data .
     

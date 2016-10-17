@@ -1,5 +1,5 @@
 {
-  "name": "minibox-minimalchatextreme",
+  "name": "chipbox-minimalchatextreme",
   "version": "1.0.0",
   "description": "An Extremely Minimal PHP/Javascript chat system. Easy to deploy,  Easy to manage, Easy to use.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/remipassmoilesel/minibox-minimalchatextreme"
+    "url": "https://github.com/remipassmoilesel/chipbox-minimalchatextreme"
   },
   "author": "",
   "license": "GPLv3",
