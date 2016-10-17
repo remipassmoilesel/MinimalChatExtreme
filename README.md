@@ -4,6 +4,8 @@ An Extremely Minimal PHP/Javascript chat system. Easy to deploy,  Easy to manage
 
 Modified to be use in Minibox, on TPLink MR3020 and OpenWRT Chaos Calmer. 
 
+Base on the excellent project: https://github.com/adamoutler/MinimalChatExtreme Thanks a lot !
+
 ## Features & Operation
 1. **Easy Setup!** Deployment requires cloning this repository to a PHP server.
 1. **Easy To Use** Users are prompted for their name and 
