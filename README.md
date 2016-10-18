@@ -24,12 +24,15 @@ On OpenWRT with lighttpd:
 
     $ cd /www
     $ mkdir chat && cd chat
-    $ wget https://github.com/remipassmoilesel/chipbox-minimalchatextreme/raw/master/dist/release.zip
-    $ unzip release.zip
+    $ wget https://github.com/remipassmoilesel/chipbox-minimalchatextreme/archive/master.zip
+    $ unzip master.zip
     $ chown -R http:www-data .
-    
+
 ## Usefull commands for dev
 
     $ npm install
+    $ bower install
     $ gulp styles
     $ gulp release
+
+Note: bower_components directory is versioned to facilitate installation
