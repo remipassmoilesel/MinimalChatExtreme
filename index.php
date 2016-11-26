@@ -19,7 +19,7 @@
     <meta property="instrument" content="CASUAL-Dev chat"/>
     <meta property="participant" content="user"/>
 
-    <title>Chipbox Minimal Chat Extreme</title>
+    <title>Tor-sharing Minimal Chat Extreme</title>
 
 	<style>
 		<?php echo file_get_contents('css/style.css'); ?>
@@ -28,7 +28,7 @@
 </head>
 <body id="body" itemscope itemtype="https://schema.org/CommunicateAction">
     <div class="header">
-        <div class="menubutton">Chipbox Minimal Chat</div>
+        <div class="menubutton">Tor-sharing Minimal Chat</div>
         <div class="more has-menu">
             <i class="fa fa-ellipsis-v"></i>
             <div class="menu">
